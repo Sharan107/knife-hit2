@@ -1,9 +1,13 @@
 var wheel_img,knife_img,fruit1_img,monster_img,fruit2_img,fruit3_img;
 var wheel,knife,fruit1,monster,fruit2,fruit3;
+
 var startx=300,starty=300,angle=0,radius=150,increment=10;
+
 var startx3=300,starty3=300,angle3=30,increment3=8;
-var startx4=300,starty4=300,angle4=50,radius4=150,increment4=28;
-var startx2=300,starty2=300,angle2=20,radius2=150,increment2=5;
+
+var startx4=300,starty4=300,angle4=90,radius4=150,increment4=16;
+
+var startx2=300,starty2=300,angle2=120,radius2=150,increment2=5;
 var gameState="play";
 var score=0;
 var fruit_destroy1=0;
